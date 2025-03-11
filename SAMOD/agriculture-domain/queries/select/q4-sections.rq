@@ -3,7 +3,7 @@ PREFIX hmas: <https://purl.org/hmas/>
 
 SELECT ?section WHERE {
 GRAPH <https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#> {
-   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#farm-c79a12f6-4d1a-4705-b57f-aabf23bbdb32> as ?farm)
+   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#farm-4b56b29a-c113-47b0-ae5e-7065ed18c0d8> as ?farm)
    ?farm a was:Farm.    
    ?section was:isOn ?farm .
    ?section a was:Section.
