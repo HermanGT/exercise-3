@@ -1,0 +1,15 @@
+PREFIX was: <https://was-course.interactions.ics.unisg.ch/farm-ontology#>
+PREFIX hmas: <https://purl.org/hmas/>
+PREFIX td: <https://www.w3.org/2019/wot/td#>
+
+SELECT ?x1 ?y1 ?x2 ?y2 WHERE {
+GRAPH <https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#> {
+   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#section-f3e548d0-7498-4b47-bcd8-a86cb2085ea9> as ?section)
+   ?section a was:Section.
+   ?section was:locatedAt ?coordinates.
+   ?coordinates was:x1 ?x1.
+   ?coordinates was:y1 ?y1.
+   ?coordinates was:x2 ?x2.
+   ?coordinates was:y2 ?y2.
+ }
+}
