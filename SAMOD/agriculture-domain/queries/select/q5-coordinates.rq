@@ -4,7 +4,7 @@ PREFIX td: <https://www.w3.org/2019/wot/td#>
 
 SELECT ?x1 ?y1 ?x2 ?y2 WHERE {
 GRAPH <https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#> {
-   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#section-b060eb74-9f42-476c-b9d5-15db3430a8fc> as ?section)
+   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-gero#section-bb143037-9fe3-45ba-b3c3-29733ef237e1> as ?section)
    ?section a was:Section.
    ?section was:locatedAt ?coordinates.
    ?coordinates was:x1 ?x1.
